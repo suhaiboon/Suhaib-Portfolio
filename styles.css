@@ -173,9 +173,18 @@ nav li a:hover{
   max-width: 960px;
   margin: 60px auto;
   text-align: center;
-
 }
 
+.herobutton{
+  /* max-width: 960px; */
+  margin: 0px 10px; auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contentButton .herobutton{
+  background-color: white;
+}
 .hero img {
   width: 400px;
 }
@@ -188,17 +197,23 @@ nav li a:hover{
 .hero h1, .hero2 h1, .hero3 h1,.skillsHero h1  {
   font-size: 2em;
   font-weight: 300;
-  color: #204969;
+  color: #5ca0d3;
   margin-top : 30px;
   margin-bottom: 0px;
 }
 
-.hero p, .hero2 p, .hero3 p, .footer p  {
+.hero p, .hero2 p, .hero3 p  {
   font-size: 300;
   font-height: 1.8em;
-  color: #98a0ad;
+  color: #98a0ad;  color: #98a0ad;
+
 }
 
+.footer p {
+  font-size: 4000px;
+  color: #027BFF;
+
+}
 .action-btn {
   display: inline-block;
   text-decoration: none;
@@ -210,12 +225,31 @@ nav li a:hover{
   margin: 1em 9;
   transition: 0.3s;
   margin-bottom: 1em;
+}
 
+.action-btn1{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  /* background: #027BFF; */
+  border: 2px solid #027BFF;
+  padding: 0.5em 2.5em;
+  border-radius: 40px;
+  /* border-color: black; */
+  margin: 1em 9;
+  transition: 0.3s;
+  margin-bottom: 1em;
+}
+
+.action-btn1:hover{
+  box-shadow:  0 1px 30px #0099FF;
+  shadow:0px;
 }
 
 .action-btn:hover{
   box-shadow:  0 5px 40px #0099FF;
-  shadow: 39px;
+  shadow: 9px;
 }
 
 /* .footer {
@@ -228,25 +262,35 @@ nav li a:hover{
 .iconbottom{
   display: inline-block;
   align-self: auto;
-  padding-left: 30px;
+  padding-bottom: 10px;
 
 }
 
 .footer {
   color: black;
   font-size: 30px;
-  text-align:  center;
+  text-align: center;
   padding: 20px;
-  margin: 0;
-  /* background-color: whtie; */
-
+  margin: auto;
+  clear:both;
+  width:100%;
+  /* background: url(images/BG2.png); */
+  margin-right: 700px;
 
 }
-
-/* .footer ul li {
+.icons {
+  margin-right: 70px;
+}
+.footer hr {
   list-style: none;
   align-items: center;
-} */
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px ;
+  width: 3%;
+
+}
 
 /* .footer ul li a {
   text-decoration: none;
@@ -260,18 +304,4 @@ svg {
 .footer p {
   font-size: 0.8em;
   text-align: center;
-}
-.connect-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  background: #027BFF;
-  border-color: : #027BFF;
-  padding: 0.5em 2.5em;
-  border-radius: 10px;
-  margin: 2em 9;
-  transition: 0.3s;
-  margin-bottom: 5em;
-  margin-top: 1em;
 }
