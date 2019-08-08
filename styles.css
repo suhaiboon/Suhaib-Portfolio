@@ -203,10 +203,14 @@ nav li a:hover{
 }
 
 .hero p, .hero2 p, .hero3 p  {
-  font-size: 300;
+  font-size: 25px;
   font-height: 1.8em;
   color: #98a0ad;  color: #98a0ad;
 
+}
+
+.hero2 span, .hero3 span{
+  color: #027BFF;
 }
 
 .footer p {
