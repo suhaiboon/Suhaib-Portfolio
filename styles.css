@@ -38,7 +38,7 @@ body {
 
 .skillsHero img{
 
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     margin-top: 30px;
 }
 
@@ -169,9 +169,9 @@ nav li a:hover{
 }
 
 
-.hero, .hero2, .hero3, .skillsHero {
+.hero, .hero2, .hero3, .skillsHero, .classes {
   max-width: 960px;
-  margin: 60px auto;
+  margin: 30px auto;
   text-align: center;
 }
 
@@ -194,7 +194,7 @@ nav li a:hover{
 }
 
 
-.hero h1, .hero2 h1, .hero3 h1,.skillsHero h1  {
+.hero h1, .hero2 h1, .hero3 h1,.skillsHero h1, .classes h1 {
   font-size: 2em;
   font-weight: 300;
   color: #5ca0d3;
@@ -202,9 +202,9 @@ nav li a:hover{
   margin-bottom: 0px;
 }
 
-.hero p, .hero2 p, .hero3 p  {
-  font-size: 25px;
-  font-height: 1.8em;
+.hero p, .hero2 p, .hero3 p, .classes p  {
+  font-size: 1em;
+  font-weight: 200;
   color: #98a0ad;  color: #98a0ad;
 
 }
